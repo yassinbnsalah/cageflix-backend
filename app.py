@@ -11,7 +11,7 @@ from flask import Flask, request, jsonify
 RESULTS_FILE = 'cage_titles.json'
 
 OMDB_API_KEY = 'b9534972'
-
+TMDB_API_KEY = "6af42075a27b2ca7c7a5498004a12d4f"
 with open("cageflix_data/cageflix_data.json", "r", encoding="utf-8") as f:
     cageflix_data = json.load(f)
 
@@ -44,19 +44,60 @@ def get_cageflix_data():
 
 @app.route("/api/cageflix/<tconst>", methods=["GET"])
 def get_movie_detail(tconst):
-    url = f"http://www.omdbapi.com/?i={tconst}&apikey={OMDB_API_KEY}"
+    omdb_url = f"http://www.omdbapi.com/?i={tconst}&apikey={OMDB_API_KEY}"
+    tmdb_url = f"https://api.themoviedb.org/3/find/{tconst}?api_key={TMDB_API_KEY}&external_source=imdb_id"
 
     try:
-        response = requests.get(url)
-        data = response.json()
+        omdb_response = requests.get(omdb_url)
+        omdb_data = omdb_response.json()
 
-        if data.get("Response") == "True":
-            return jsonify(data), 200
-        else:
+        tmdb_response = requests.get(tmdb_url)
+        tmdb_data = tmdb_response.json()
+
+        if omdb_data.get("Response") != "True":
             return jsonify({"error": "Movie not found in OMDb"}), 404
+
+        movie_results = tmdb_data.get("movie_results", [])
+        tmdb_id = movie_results[0]["id"] if movie_results else None
+
+        trailers = []
+        if tmdb_id:
+            videos_url = f"https://api.themoviedb.org/3/movie/{tmdb_id}/videos?api_key={TMDB_API_KEY}"
+            videos_response = requests.get(videos_url)
+            videos_data = videos_response.json()
+            trailers = [
+                {
+                    "name": v["name"],
+                    "site": v["site"],
+                    "type": v["type"],
+                    "key": v["key"],
+                    "url": f"https://www.youtube.com/watch?v={v['key']}" if v["site"] == "YouTube" else None
+                }
+                for v in videos_data.get("results", []) if v["type"] == "Trailer"
+            ]
+
+        result = {
+            "title": omdb_data.get("Title"),
+            "year": omdb_data.get("Year"),
+            "rated": omdb_data.get("imdbRating"),
+            "released": omdb_data.get("Released"),
+            "runtime": omdb_data.get("Runtime"),
+            "genre": omdb_data.get("Genre"),
+            "director": omdb_data.get("Director"),
+            "writer": omdb_data.get("Writer"),
+            "actors": omdb_data.get("Actors"),
+            "plot": omdb_data.get("Plot"),
+            "language": omdb_data.get("Language"),
+            "poster": omdb_data.get("Poster"),
+            "ratings": omdb_data.get("Ratings"),
+            "tmdb_id": tmdb_id,
+            "trailers": trailers,
+        }
+
+        return jsonify(result), 200
+
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-
 
 
 @app.route("/api/search", methods=["GET"])
