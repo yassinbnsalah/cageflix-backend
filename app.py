@@ -2,16 +2,16 @@ from flask import Flask, jsonify, request
 import json
 from flask_cors import CORS
 from rapidfuzz import fuzz
+from dotenv import load_dotenv
+load_dotenv()
 app = Flask(__name__)
 CORS(app)
 import os
-
+OMDB_API_KEY = os.getenv("OMDB_API_KEY")
+TMDB_API_KEY = os.getenv("TMDB_API_KEY")
 import requests
 from flask import Flask, request, jsonify
 RESULTS_FILE = 'cage_titles.json'
-
-OMDB_API_KEY = 'b9534972'
-TMDB_API_KEY = "6af42075a27b2ca7c7a5498004a12d4f"
 with open("cageflix_data/cageflix_data.json", "r", encoding="utf-8") as f:
     cageflix_data = json.load(f)
 
