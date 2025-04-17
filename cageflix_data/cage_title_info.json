@@ -1,0 +1,982 @@
+[
+  {
+    "tconst": "tt0082064",
+    "title": "The Best of Times",
+    "year": "1981",
+    "genres": "Comedy",
+    "runtime": "60"
+  },
+  {
+    "tconst": "tt0086216",
+    "title": "Rumble Fish",
+    "year": "1983",
+    "genres": "Crime,Drama,Romance",
+    "runtime": "94"
+  },
+  {
+    "tconst": "tt0086525",
+    "title": "Valley Girl",
+    "year": "1983",
+    "genres": "Comedy,Romance",
+    "runtime": "99"
+  },
+  {
+    "tconst": "tt0086969",
+    "title": "Birdy",
+    "year": "1984",
+    "genres": "Drama,War",
+    "runtime": "120"
+  },
+  {
+    "tconst": "tt0087089",
+    "title": "The Cotton Club",
+    "year": "1984",
+    "genres": "Crime,Drama,Music",
+    "runtime": "129"
+  },
+  {
+    "tconst": "tt0087968",
+    "title": "Racing with the Moon",
+    "year": "1984",
+    "genres": "Comedy,Drama,Romance",
+    "runtime": "108"
+  },
+  {
+    "tconst": "tt0090769",
+    "title": "The Boy in Blue",
+    "year": "1986",
+    "genres": "Biography,Drama,Sport",
+    "runtime": "97"
+  },
+  {
+    "tconst": "tt0091738",
+    "title": "Peggy Sue Got Married",
+    "year": "1986",
+    "genres": "Comedy,Drama,Fantasy",
+    "runtime": "103"
+  },
+  {
+    "tconst": "tt0093565",
+    "title": "Moonstruck",
+    "year": "1987",
+    "genres": "Comedy,Drama,Romance",
+    "runtime": "102"
+  },
+  {
+    "tconst": "tt0093822",
+    "title": "Raising Arizona",
+    "year": "1987",
+    "genres": "Comedy,Crime",
+    "runtime": "94"
+  },
+  {
+    "tconst": "tt0095722",
+    "title": "Never on Tuesday",
+    "year": "1988",
+    "genres": "Comedy,Drama",
+    "runtime": "90"
+  },
+  {
+    "tconst": "tt0098577",
+    "title": "Vampire's Kiss",
+    "year": "1988",
+    "genres": "Comedy,Crime,Fantasy",
+    "runtime": "103"
+  },
+  {
+    "tconst": "tt0099575",
+    "title": "Fire Birds",
+    "year": "1990",
+    "genres": "Action,Adventure",
+    "runtime": "85"
+  },
+  {
+    "tconst": "tt0100762",
+    "title": "Time to Kill",
+    "year": "1989",
+    "genres": "Drama,War",
+    "runtime": "110"
+  },
+  {
+    "tconst": "tt0100935",
+    "title": "Wild at Heart",
+    "year": "1990",
+    "genres": "Crime,Drama,Thriller",
+    "runtime": "125"
+  },
+  {
+    "tconst": "tt0101004",
+    "title": "Zandalee",
+    "year": "1991",
+    "genres": "Drama,Romance,Thriller",
+    "runtime": "100"
+  },
+  {
+    "tconst": "tt0104438",
+    "title": "Honeymoon in Vegas",
+    "year": "1992",
+    "genres": "Comedy,Romance,Thriller",
+    "runtime": "96"
+  },
+  {
+    "tconst": "tt0105226",
+    "title": "Red Rock West",
+    "year": "1993",
+    "genres": "Crime,Drama,Thriller",
+    "runtime": "98"
+  },
+  {
+    "tconst": "tt0106266",
+    "title": "Amos & Andrew",
+    "year": "1993",
+    "genres": "Comedy,Crime",
+    "runtime": "96"
+  },
+  {
+    "tconst": "tt0106684",
+    "title": "Deadfall",
+    "year": "1993",
+    "genres": "Crime,Drama",
+    "runtime": "98"
+  },
+  {
+    "tconst": "tt0109390",
+    "title": "A Century of Cinema",
+    "year": "1994",
+    "genres": "Documentary",
+    "runtime": "72"
+  },
+  {
+    "tconst": "tt0109951",
+    "title": "Guarding Tess",
+    "year": "1994",
+    "genres": "Comedy,Drama",
+    "runtime": "96"
+  },
+  {
+    "tconst": "tt0110167",
+    "title": "It Could Happen to You",
+    "year": "1994",
+    "genres": "Comedy,Drama,Romance",
+    "runtime": "101"
+  },
+  {
+    "tconst": "tt0111477",
+    "title": "Trapped in Paradise",
+    "year": "1994",
+    "genres": "Adventure,Comedy,Crime",
+    "runtime": "111"
+  },
+  {
+    "tconst": "tt0113552",
+    "title": "Kiss of Death",
+    "year": "1995",
+    "genres": "Crime,Drama,Thriller",
+    "runtime": "101"
+  },
+  {
+    "tconst": "tt0113627",
+    "title": "Leaving Las Vegas",
+    "year": "1995",
+    "genres": "Drama,Romance",
+    "runtime": "111"
+  },
+  {
+    "tconst": "tt0117500",
+    "title": "The Rock",
+    "year": "1996",
+    "genres": "Action,Adventure,Thriller",
+    "runtime": "136"
+  },
+  {
+    "tconst": "tt0118880",
+    "title": "Con Air",
+    "year": "1997",
+    "genres": "Action,Crime,Thriller",
+    "runtime": "115"
+  },
+  {
+    "tconst": "tt0119094",
+    "title": "Face/Off",
+    "year": "1997",
+    "genres": "Action,Crime,Sci-Fi",
+    "runtime": "138"
+  },
+  {
+    "tconst": "tt0120632",
+    "title": "City of Angels",
+    "year": "1998",
+    "genres": "Drama,Fantasy,Romance",
+    "runtime": "114"
+  },
+  {
+    "tconst": "tt0120832",
+    "title": "Snake Eyes",
+    "year": "1998",
+    "genres": "Crime,Mystery,Thriller",
+    "runtime": "98"
+  },
+  {
+    "tconst": "tt0134273",
+    "title": "8MM",
+    "year": "1999",
+    "genres": "Crime,Drama,Mystery",
+    "runtime": "123"
+  },
+  {
+    "tconst": "tt0163988",
+    "title": "Bringing Out the Dead",
+    "year": "1999",
+    "genres": "Drama,Thriller",
+    "runtime": "121"
+  },
+  {
+    "tconst": "tt0187078",
+    "title": "Gone in 60 Seconds",
+    "year": "2000",
+    "genres": "Action,Crime,Thriller",
+    "runtime": "118"
+  },
+  {
+    "tconst": "tt0205167",
+    "title": "Jonathan Ross Presents for One Week Only: David Lynch",
+    "year": "1990",
+    "genres": "Documentary",
+    "runtime": "\\N"
+  },
+  {
+    "tconst": "tt0205314",
+    "title": "Inside the Golden Statue",
+    "year": "1998",
+    "genres": "Documentary",
+    "runtime": "55"
+  },
+  {
+    "tconst": "tt0218967",
+    "title": "The Family Man",
+    "year": "2000",
+    "genres": "Comedy,Drama,Fantasy",
+    "runtime": "125"
+  },
+  {
+    "tconst": "tt0238112",
+    "title": "Captain Corelli's Mandolin",
+    "year": "2001",
+    "genres": "Drama,Music,Romance",
+    "runtime": "131"
+  },
+  {
+    "tconst": "tt0245562",
+    "title": "Windtalkers",
+    "year": "2002",
+    "genres": "Action,Drama,War",
+    "runtime": "134"
+  },
+  {
+    "tconst": "tt0246354",
+    "title": "Very Important Pennis",
+    "year": "1996",
+    "genres": "Comedy",
+    "runtime": "30"
+  },
+  {
+    "tconst": "tt0259324",
+    "title": "Ghost Rider",
+    "year": "2007",
+    "genres": "Action,Fantasy,Thriller",
+    "runtime": "110"
+  },
+  {
+    "tconst": "tt0259929",
+    "title": "Christmas Carol: The Movie",
+    "year": "2001",
+    "genres": "Animation,Family,Fantasy",
+    "runtime": "77"
+  },
+  {
+    "tconst": "tt0268126",
+    "title": "Adaptation.",
+    "year": "2002",
+    "genres": "Comedy,Drama",
+    "runtime": "115"
+  },
+  {
+    "tconst": "tt0315677",
+    "title": "HypaSpace",
+    "year": "2002",
+    "genres": "Documentary",
+    "runtime": "25"
+  },
+  {
+    "tconst": "tt0325805",
+    "title": "Matchstick Men",
+    "year": "2003",
+    "genres": "Comedy,Crime,Drama",
+    "runtime": "116"
+  },
+  {
+    "tconst": "tt0366625",
+    "title": "Spaghetti Requiem",
+    "year": "2001",
+    "genres": "Documentary",
+    "runtime": "56"
+  },
+  {
+    "tconst": "tt0368891",
+    "title": "National Treasure",
+    "year": "2004",
+    "genres": "Action,Adventure,Mystery",
+    "runtime": "131"
+  },
+  {
+    "tconst": "tt0375568",
+    "title": "Astro Boy",
+    "year": "2009",
+    "genres": "Action,Adventure,Animation",
+    "runtime": "94"
+  },
+  {
+    "tconst": "tt0384680",
+    "title": "The Weather Man",
+    "year": "2005",
+    "genres": "Comedy,Drama",
+    "runtime": "102"
+  },
+  {
+    "tconst": "tt0399295",
+    "title": "Lord of War",
+    "year": "2005",
+    "genres": "Crime,Drama",
+    "runtime": "122"
+  },
+  {
+    "tconst": "tt0407905",
+    "title": "John Travolta: The Inside Story",
+    "year": "2004",
+    "genres": "Documentary",
+    "runtime": "45"
+  },
+  {
+    "tconst": "tt0429589",
+    "title": "The Ant Bully",
+    "year": "2006",
+    "genres": "Adventure,Animation,Comedy",
+    "runtime": "88"
+  },
+  {
+    "tconst": "tt0435705",
+    "title": "Next",
+    "year": "2007",
+    "genres": "Action,Sci-Fi,Thriller",
+    "runtime": "96"
+  },
+  {
+    "tconst": "tt0448011",
+    "title": "Knowing",
+    "year": "2009",
+    "genres": "Mystery,Sci-Fi,Thriller",
+    "runtime": "121"
+  },
+  {
+    "tconst": "tt0450345",
+    "title": "The Wicker Man",
+    "year": "2006",
+    "genres": "Horror,Mystery,Thriller",
+    "runtime": "102"
+  },
+  {
+    "tconst": "tt0465234",
+    "title": "National Treasure: Book of Secrets",
+    "year": "2007",
+    "genres": "Action,Adventure,Mystery",
+    "runtime": "124"
+  },
+  {
+    "tconst": "tt0469641",
+    "title": "World Trade Center",
+    "year": "2006",
+    "genres": "Drama,History,Thriller",
+    "runtime": "129"
+  },
+  {
+    "tconst": "tt0479997",
+    "title": "Season of the Witch",
+    "year": "2011",
+    "genres": "Action,Adventure,Fantasy",
+    "runtime": "95"
+  },
+  {
+    "tconst": "tt0481499",
+    "title": "The Croods",
+    "year": "2013",
+    "genres": "Adventure,Animation,Comedy",
+    "runtime": "98"
+  },
+  {
+    "tconst": "tt0489239",
+    "title": "National Treasure Uncovered",
+    "year": "2004",
+    "genres": "\\N",
+    "runtime": "\\N"
+  },
+  {
+    "tconst": "tt0796267",
+    "title": "Hi Octane",
+    "year": "1994",
+    "genres": "Comedy",
+    "runtime": "\\N"
+  },
+  {
+    "tconst": "tt0805631",
+    "title": "Too Tough to Die: A Tribute to Johnny Ramone",
+    "year": "2006",
+    "genres": "Documentary,Music",
+    "runtime": "80"
+  },
+  {
+    "tconst": "tt0814022",
+    "title": "Bangkok Dangerous",
+    "year": "2008",
+    "genres": "Action,Crime,Thriller",
+    "runtime": "99"
+  },
+  {
+    "tconst": "tt0843412",
+    "title": "Fantastico 10",
+    "year": "1989",
+    "genres": "Comedy,Game-Show,Music",
+    "runtime": "140"
+  },
+  {
+    "tconst": "tt0963966",
+    "title": "The Sorcerer's Apprentice",
+    "year": "2010",
+    "genres": "Action,Adventure,Family",
+    "runtime": "109"
+  },
+  {
+    "tconst": "tt0966569",
+    "title": "Ghost Rider: Inside the Action",
+    "year": "2007",
+    "genres": "Action",
+    "runtime": "30"
+  },
+  {
+    "tconst": "tt10690676",
+    "title": "Dark",
+    "year": "2017",
+    "genres": "Drama,Thriller",
+    "runtime": "75"
+  },
+  {
+    "tconst": "tt1071875",
+    "title": "Ghost Rider: Spirit of Vengeance",
+    "year": "2011",
+    "genres": "Action,Fantasy,Thriller",
+    "runtime": "96"
+  },
+  {
+    "tconst": "tt1095217",
+    "title": "Bad Lieutenant: Port of Call New Orleans",
+    "year": "2009",
+    "genres": "Crime,Drama,Mystery",
+    "runtime": "122"
+  },
+  {
+    "tconst": "tt11003218",
+    "title": "Pig",
+    "year": "2021",
+    "genres": "Drama,Mystery",
+    "runtime": "92"
+  },
+  {
+    "tconst": "tt11291274",
+    "title": "The Unbearable Weight of Massive Talent",
+    "year": "2022",
+    "genres": "Action,Comedy,Crime",
+    "runtime": "107"
+  },
+  {
+    "tconst": "tt11358390",
+    "title": "Renfield",
+    "year": "2023",
+    "genres": "Action,Comedy,Fantasy",
+    "runtime": "93"
+  },
+  {
+    "tconst": "tt1214962",
+    "title": "Seeking Justice",
+    "year": "2011",
+    "genres": "Action,Drama,Mystery",
+    "runtime": "105"
+  },
+  {
+    "tconst": "tt1232381",
+    "title": "Movie Rush",
+    "year": "2006",
+    "genres": "Documentary",
+    "runtime": "10"
+  },
+  {
+    "tconst": "tt1250777",
+    "title": "Kick-Ass",
+    "year": "2010",
+    "genres": "Action,Comedy,Crime",
+    "runtime": "117"
+  },
+  {
+    "tconst": "tt1274586",
+    "title": "Dying of the Light",
+    "year": "2014",
+    "genres": "Action,Drama,Thriller",
+    "runtime": "94"
+  },
+  {
+    "tconst": "tt13060064",
+    "title": "Highfire",
+    "year": "\\N",
+    "genres": "Action,Adventure,Crime",
+    "runtime": "\\N"
+  },
+  {
+    "tconst": "tt1334557",
+    "title": "Samuel L. Jackson: An American Cinematheque Tribute",
+    "year": "2008",
+    "genres": "Documentary",
+    "runtime": "60"
+  },
+  {
+    "tconst": "tt13617060",
+    "title": "History of Swear Words",
+    "year": "2021",
+    "genres": "Comedy,Documentary",
+    "runtime": "\\N"
+  },
+  {
+    "tconst": "tt1462759",
+    "title": "Butcher's Crossing",
+    "year": "2022",
+    "genres": "Adventure,Drama,Western",
+    "runtime": "105"
+  },
+  {
+    "tconst": "tt14827638",
+    "title": "The Retirement Plan",
+    "year": "2023",
+    "genres": "Action,Comedy,Crime",
+    "runtime": "103"
+  },
+  {
+    "tconst": "tt1489335",
+    "title": "ES.TV HD",
+    "year": "2009",
+    "genres": "Talk-Show",
+    "runtime": "\\N"
+  },
+  {
+    "tconst": "tt1502404",
+    "title": "Drive Angry",
+    "year": "2011",
+    "genres": "Action,Comedy,Fantasy",
+    "runtime": "104"
+  },
+  {
+    "tconst": "tt15046058",
+    "title": "The Roles That Changed My Life",
+    "year": "2021",
+    "genres": "\\N",
+    "runtime": "\\N"
+  },
+  {
+    "tconst": "tt1519189",
+    "title": "The Hollywood Machine",
+    "year": "2002",
+    "genres": "Documentary",
+    "runtime": "52"
+  },
+  {
+    "tconst": "tt1552224",
+    "title": "Outcast",
+    "year": "2014",
+    "genres": "Action,Adventure,Thriller",
+    "runtime": "99"
+  },
+  {
+    "tconst": "tt16360004",
+    "title": "Spider-Man: Beyond the Spider-Verse",
+    "year": "2027",
+    "genres": "Action,Adventure,Animation",
+    "runtime": "\\N"
+  },
+  {
+    "tconst": "tt1656186",
+    "title": "Stolen",
+    "year": "2012",
+    "genres": "Action,Crime,Thriller",
+    "runtime": "96"
+  },
+  {
+    "tconst": "tt1674784",
+    "title": "Trespass",
+    "year": "2011",
+    "genres": "Crime,Drama,Mystery",
+    "runtime": "91"
+  },
+  {
+    "tconst": "tt1799915",
+    "title": "Jump Start Live",
+    "year": "2011",
+    "genres": "Talk-Show",
+    "runtime": "60"
+  },
+  {
+    "tconst": "tt2005374",
+    "title": "The Frozen Ground",
+    "year": "2013",
+    "genres": "Biography,Crime,Drama",
+    "runtime": "105"
+  },
+  {
+    "tconst": "tt2032572",
+    "title": "USS Indianapolis: Men of Courage",
+    "year": "2016",
+    "genres": "Action,Drama,History",
+    "runtime": "128"
+  },
+  {
+    "tconst": "tt2132638",
+    "title": "Close Up",
+    "year": "2011",
+    "genres": "Biography,Documentary",
+    "runtime": "26"
+  },
+  {
+    "tconst": "tt21942866",
+    "title": "Dream Scenario",
+    "year": "2023",
+    "genres": "Comedy,Drama,Fantasy",
+    "runtime": "102"
+  },
+  {
+    "tconst": "tt21991654",
+    "title": "Sympathy for the Devil",
+    "year": "2023",
+    "genres": "Action,Thriller",
+    "runtime": "90"
+  },
+  {
+    "tconst": "tt22939186",
+    "title": "Arcadian",
+    "year": "2024",
+    "genres": "Action,Drama,Horror",
+    "runtime": "92"
+  },
+  {
+    "tconst": "tt23468450",
+    "title": "Longlegs",
+    "year": "2024",
+    "genres": "Crime,Horror,Thriller",
+    "runtime": "101"
+  },
+  {
+    "tconst": "tt2382396",
+    "title": "Joe",
+    "year": "2013",
+    "genres": "Crime,Drama,Thriller",
+    "runtime": "117"
+  },
+  {
+    "tconst": "tt23951630",
+    "title": "AEG Live Studio Actors on Actors",
+    "year": "2019",
+    "genres": "Talk-Show",
+    "runtime": "90"
+  },
+  {
+    "tconst": "tt2401807",
+    "title": "Rage",
+    "year": "2014",
+    "genres": "Action,Thriller",
+    "runtime": "92"
+  },
+  {
+    "tconst": "tt2467046",
+    "title": "Left Behind",
+    "year": "2014",
+    "genres": "Action,Fantasy,Sci-Fi",
+    "runtime": "110"
+  },
+  {
+    "tconst": "tt24818230",
+    "title": "Madden",
+    "year": "\\N",
+    "genres": "\\N",
+    "runtime": "\\N"
+  },
+  {
+    "tconst": "tt24850708",
+    "title": "Gunslingers",
+    "year": "2025",
+    "genres": "Action,Drama,Western",
+    "runtime": "104"
+  },
+  {
+    "tconst": "tt2646218",
+    "title": "Was ich bin sind meine Filme - Teil 2... nach 30 Jahren",
+    "year": "2010",
+    "genres": "Documentary",
+    "runtime": "98"
+  },
+  {
+    "tconst": "tt27706987",
+    "title": "Lords of War",
+    "year": "\\N",
+    "genres": "Crime,Thriller",
+    "runtime": "\\N"
+  },
+  {
+    "tconst": "tt27813235",
+    "title": "The Surfer",
+    "year": "2024",
+    "genres": "Thriller",
+    "runtime": "103"
+  },
+  {
+    "tconst": "tt2850386",
+    "title": "The Croods: A New Age",
+    "year": "2020",
+    "genres": "Adventure,Animation,Comedy",
+    "runtime": "95"
+  },
+  {
+    "tconst": "tt28638642",
+    "title": "Jackie Chan: Dragon Power",
+    "year": "2002",
+    "genres": "Documentary",
+    "runtime": "60"
+  },
+  {
+    "tconst": "tt30460310",
+    "title": "Spider-Noir",
+    "year": "\\N",
+    "genres": "Action,Adventure,Crime",
+    "runtime": "\\N"
+  },
+  {
+    "tconst": "tt3138790",
+    "title": "Superheroes: From Page to Screen",
+    "year": "2013",
+    "genres": "Documentary",
+    "runtime": "\\N"
+  },
+  {
+    "tconst": "tt32304349",
+    "title": "The Carpenter's Son",
+    "year": "2025",
+    "genres": "Horror",
+    "runtime": "\\N"
+  },
+  {
+    "tconst": "tt32604452",
+    "title": "The Prince",
+    "year": "\\N",
+    "genres": "Drama",
+    "runtime": "\\N"
+  },
+  {
+    "tconst": "tt3481634",
+    "title": "Inconceivable",
+    "year": "2017",
+    "genres": "Drama,Thriller",
+    "runtime": "105"
+  },
+  {
+    "tconst": "tt3517762",
+    "title": "Making of Bringing Out the Dead",
+    "year": "1999",
+    "genres": "Documentary",
+    "runtime": "30"
+  },
+  {
+    "tconst": "tt3687398",
+    "title": "The Runner",
+    "year": "2015",
+    "genres": "Drama",
+    "runtime": "90"
+  },
+  {
+    "tconst": "tt3696140",
+    "title": "Hollywood Waterloo",
+    "year": "1994",
+    "genres": "Documentary",
+    "runtime": "89"
+  },
+  {
+    "tconst": "tt3733774",
+    "title": "The Trust",
+    "year": "2016",
+    "genres": "Action,Crime,Mystery",
+    "runtime": "92"
+  },
+  {
+    "tconst": "tt3733778",
+    "title": "Pay the Ghost",
+    "year": "2015",
+    "genres": "Horror,Mystery",
+    "runtime": "94"
+  },
+  {
+    "tconst": "tt3758162",
+    "title": "A Score to Settle",
+    "year": "2019",
+    "genres": "Action,Crime,Drama",
+    "runtime": "103"
+  },
+  {
+    "tconst": "tt4054654",
+    "title": "Dog Eat Dog",
+    "year": "2016",
+    "genres": "Action,Crime,Thriller",
+    "runtime": "93"
+  },
+  {
+    "tconst": "tt4382824",
+    "title": "Army of One",
+    "year": "2016",
+    "genres": "Biography,Comedy,Crime",
+    "runtime": "92"
+  },
+  {
+    "tconst": "tt4976192",
+    "title": "211",
+    "year": "2018",
+    "genres": "Action,Drama,Horror",
+    "runtime": "86"
+  },
+  {
+    "tconst": "tt5073642",
+    "title": "Color Out of Space",
+    "year": "2019",
+    "genres": "Horror,Mystery,Sci-Fi",
+    "runtime": "111"
+  },
+  {
+    "tconst": "tt5460530",
+    "title": "Vengeance: A Love Story",
+    "year": "2017",
+    "genres": "Action,Adventure,Crime",
+    "runtime": "99"
+  },
+  {
+    "tconst": "tt5462326",
+    "title": "Mom and Dad",
+    "year": "2017",
+    "genres": "Comedy,Horror,Thriller",
+    "runtime": "86"
+  },
+  {
+    "tconst": "tt5580536",
+    "title": "Arsenal",
+    "year": "2017",
+    "genres": "Action,Crime,Thriller",
+    "runtime": "92"
+  },
+  {
+    "tconst": "tt5792656",
+    "title": "Running with the Devil",
+    "year": "2019",
+    "genres": "Crime,Drama,Thriller",
+    "runtime": "100"
+  },
+  {
+    "tconst": "tt6083648",
+    "title": "Looking Glass",
+    "year": "2018",
+    "genres": "Mystery,Thriller",
+    "runtime": "103"
+  },
+  {
+    "tconst": "tt6143568",
+    "title": "The Humanity Bureau",
+    "year": "2017",
+    "genres": "Sci-Fi,Thriller",
+    "runtime": "95"
+  },
+  {
+    "tconst": "tt6372694",
+    "title": "Prisoners of the Ghostland",
+    "year": "2021",
+    "genres": "Fantasy,Horror,Thriller",
+    "runtime": "103"
+  },
+  {
+    "tconst": "tt6763730",
+    "title": "Becoming Iconic",
+    "year": "2018",
+    "genres": "Biography",
+    "runtime": "85"
+  },
+  {
+    "tconst": "tt6998518",
+    "title": "Mandy",
+    "year": "2018",
+    "genres": "Action,Fantasy,Horror",
+    "runtime": "121"
+  },
+  {
+    "tconst": "tt7295450",
+    "title": "Between Worlds",
+    "year": "2018",
+    "genres": "Fantasy,Mystery,Thriller",
+    "runtime": "90"
+  },
+  {
+    "tconst": "tt7394816",
+    "title": "Primal",
+    "year": "2019",
+    "genres": "Action,Thriller",
+    "runtime": "97"
+  },
+  {
+    "tconst": "tt8114980",
+    "title": "Willy's Wonderland",
+    "year": "2021",
+    "genres": "Action,Comedy,Horror",
+    "runtime": "88"
+  },
+  {
+    "tconst": "tt8380776",
+    "title": "Grand Isle",
+    "year": "2019",
+    "genres": "Crime,Mystery,Thriller",
+    "runtime": "97"
+  },
+  {
+    "tconst": "tt8535180",
+    "title": "Kill Chain",
+    "year": "2019",
+    "genres": "Action,Drama,Thriller",
+    "runtime": "91"
+  },
+  {
+    "tconst": "tt8593824",
+    "title": "The Old Way",
+    "year": "2023",
+    "genres": "Action,Drama,Western",
+    "runtime": "95"
+  },
+  {
+    "tconst": "tt9351746",
+    "title": "Love, Antosha",
+    "year": "2019",
+    "genres": "Biography,Documentary,Music",
+    "runtime": "92"
+  },
+  {
+    "tconst": "tt9624766",
+    "title": "Jiu Jitsu",
+    "year": "2020",
+    "genres": "Action,Sci-Fi,Thriller",
+    "runtime": "102"
+  }
+]
