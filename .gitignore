@@ -1,5 +1,5 @@
 datasets/
 *.tsv
 *.tsv.gz
-*.json
+.json
 venv/
