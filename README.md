@@ -54,6 +54,12 @@ To run the backend using Docker:
 
 3. Access the API at [http://localhost:5000](http://localhost:5000).
 
+
+## Live API
+
+The backend is deployed and available at: [https://cageflix-backend.onrender.com](https://cageflix-backend.onrender.com)
+
+
 ## API Endpoints
 
 - `GET /api/cageflix`: Retrieves a list of movies and TV shows featuring Nicolas Cage.
