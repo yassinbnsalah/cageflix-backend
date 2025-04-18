@@ -56,5 +56,12 @@ To run the backend using Docker:
 
 ## API Endpoints
 
-- `GET /api/cageflix?page=1&limit=8`: Retrieves a list of movies and TV shows featuring Nicolas Cage.
+- `GET /api/cageflix`: Retrieves a list of movies and TV shows featuring Nicolas Cage.
+
+- `GET /api/cageflix/{imdb_id}`:  Retrieves the details of a specific movie or TV show by its IMDb ID. try this id : tt0134273
+
+- `POST /api/watchlist/{imdb_id}`: Add/Remove a movie or TV show to the user's watchlist using its IMDb ID.
+
+- `GET /api/watchlist`: Retrieves a list of movies and TV shows in the user's watchlist.
+
 
