@@ -33,3 +33,4 @@ def get_watchlisted_movies():
         "total_pages": (total + limit - 1) // limit
     }), 200
 
+ 
