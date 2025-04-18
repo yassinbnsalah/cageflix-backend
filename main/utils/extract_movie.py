@@ -6,30 +6,29 @@ from rapidfuzz import fuzz
 app = Flask(__name__)
 CORS(app)
 import os
-from services.extract_id_nico import get_nicolas_cage_nconst
+from dotenv import load_dotenv
+load_dotenv()
+OMDB_API_KEY = os.getenv("OMDB_API_KEY")
+from utils.extract_id_nico import get_nicolas_cage_nconst
 RESULTS_FILE = 'cage_titles.json'
 import gzip
 import csv
 
     
 import requests
-from flask import Flask, request, jsonify
+from flask import Flask,jsonify
 
-OMDB_API_KEY = 'b9534972'
 
-@app.route('/api/get-cage-titles', methods=['GET'])
-def get_cage_titles():
+def get_cage_titles_simple():
     nconst = get_nicolas_cage_nconst()
     if not nconst:
-        return jsonify({'error': 'Nicolas Cage not found in the dataset'}), 404
-    
-
+        return {'error': 'Nicolas Cage not found in the dataset'}
     if os.path.exists(RESULTS_FILE):
         with open(RESULTS_FILE, 'r') as f:
             data = json.load(f)
             if nconst in data:
-                return jsonify({'tconsts': data[nconst]}), 200
-    
+                return {'tconsts': data[nconst]}
+            
     filepath = 'datasets/title.principals.tsv.gz'
     tconsts = set()
 
@@ -38,22 +37,19 @@ def get_cage_titles():
             reader = csv.DictReader(f, delimiter='\t')
             for row in reader:
                 if row['nconst'] == nconst and row['category'] in ['actor', 'self']:
-                    print(row['tconst'])
                     tconsts.add(row['tconst'])
 
         if tconsts:
-
+            os.makedirs(os.path.dirname(RESULTS_FILE), exist_ok=True)
             with open(RESULTS_FILE, 'w') as f:
-                data = {nconst: list(tconsts)}
-                json.dump(data, f)
-            
-            return jsonify({'tconsts': list(tconsts)}), 200
+                json.dump({nconst: list(tconsts)}, f)
+
+            return {'tconsts': list(tconsts)}
         else:
-            return jsonify({'error': 'No titles found for this nconst'}), 404
+            return {'error': 'No titles found for this nconst'}
 
     except Exception as e:
-        return jsonify({'error': str(e)}), 500
-
+        return {'error': str(e)}
 
 
 @app.route('/api/cage-title-info', methods=['GET'])

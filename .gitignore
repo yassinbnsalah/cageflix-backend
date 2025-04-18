@@ -3,3 +3,4 @@ datasets/
 *.tsv.gz
 .json
 venv/
+.env
