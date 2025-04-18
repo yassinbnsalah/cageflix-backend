@@ -1,20 +1,19 @@
-from flask import Blueprint, Flask, jsonify, request
+from flask import Blueprint, jsonify, request
 import json
 from flask_cors import CORS
 from dotenv import load_dotenv
 load_dotenv()
-app = Flask(__name__)
-CORS(app)
+
 import os
 OMDB_API_KEY = os.getenv("OMDB_API_KEY")
 TMDB_API_KEY = os.getenv("TMDB_API_KEY")
 import requests
-from flask import Flask, request, jsonify
+
 
 
 
 movie_bp = Blueprint('movie_bp', __name__)
-
+CORS(movie_bp) 
 @movie_bp.route('/cageflix', methods=['GET'])
 def get_movies_data():
     try:

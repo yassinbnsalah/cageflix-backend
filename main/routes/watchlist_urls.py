@@ -1,9 +1,9 @@
 
-from flask import Blueprint, app, jsonify, request
+from flask import Blueprint, jsonify, request
 from main.source.json_utils import get_movies, write_movies
-
+from flask_cors import CORS
 watchlist_bp = Blueprint('watchlist_bp', __name__)
-
+CORS(watchlist_bp)
 @watchlist_bp.route('/watchlist/<movie_id>', methods=['POST'])
 def toggle_watchlist(movie_id):
     movies = get_movies()

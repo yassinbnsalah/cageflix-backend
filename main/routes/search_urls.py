@@ -1,13 +1,11 @@
 
-from flask import Blueprint, Flask, jsonify, request
+from flask import Blueprint,  jsonify, request
 from main.source.json_utils import get_movies
 from flask_cors import CORS
 from rapidfuzz import fuzz
 from dotenv import load_dotenv
 load_dotenv()
 
-app = Flask(__name__)
-CORS(app)
 
 import os
 OMDB_API_KEY = os.getenv("OMDB_API_KEY")
@@ -15,7 +13,7 @@ TMDB_API_KEY = os.getenv("TMDB_API_KEY")
 
 
 search_bp = Blueprint('search_bp', __name__)
-
+CORS(search_bp)
 @search_bp.route('/search', methods=['GET'])
 def search_movies():
     cageflix_data = get_movies()
