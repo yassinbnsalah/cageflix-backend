@@ -11,7 +11,8 @@ import requests
 
 
 
-
+# API to get Nicolas Cage movies data
+# This API fetches the data from a local JSON file and returns it in a paginated format
 movie_bp = Blueprint('movie_bp', __name__)
 CORS(movie_bp) 
 @movie_bp.route('/cageflix', methods=['GET'])
@@ -59,7 +60,8 @@ def get_movies_data():
     except Exception as e:
         return jsonify({'error': str(e)}), 500
     
-
+# API to get Nicolas Cage movie details
+# This API fetches the details of a specific movie using its tconst from OMDb and TMDB APIs
 @movie_bp.route('/cageflix/<tconst>', methods=['GET'])
 def get_movie_detail(tconst):
     omdb_url = f"http://www.omdbapi.com/?i={tconst}&apikey={OMDB_API_KEY}"

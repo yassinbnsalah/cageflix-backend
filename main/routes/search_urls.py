@@ -11,7 +11,8 @@ import os
 OMDB_API_KEY = os.getenv("OMDB_API_KEY")
 TMDB_API_KEY = os.getenv("TMDB_API_KEY")
 
-
+# API to search for movies based on a query string
+# This API fetches the data from a local JSON file and returns the search results in a paginated format
 search_bp = Blueprint('search_bp', __name__)
 CORS(search_bp)
 @search_bp.route('/search', methods=['GET'])

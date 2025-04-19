@@ -716,7 +716,8 @@
         "description": "In the primeval era, Grug and his family risk the dangers of their surroundings to find a new dwelling place. Along the way, they meet a modern boy who woos them with his adventurous ways.",
         "rating": "7.1",
         "actors": "Nicolas Cage, Ryan Reynolds, Emma Stone",
-        "directors": "Kirk DeMicco, Chris Sanders"
+        "directors": "Kirk DeMicco, Chris Sanders",
+        "watchlisted": true
     },
     {
         "tconst": "tt0489239",
