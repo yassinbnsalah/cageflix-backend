@@ -18,6 +18,8 @@ import csv
 import requests
 from flask import Flask,jsonify
 
+# Function to extract the tconst of Nicolas Cage from the title.principals.tsv.gz file
+# The function reads the file line by line, looking for the row where the nconst is the one of Nicolas Cage
 
 def get_cage_titles_simple():
     nconst = get_nicolas_cage_nconst()
@@ -51,7 +53,8 @@ def get_cage_titles_simple():
     except Exception as e:
         return {'error': str(e)}
 
-
+# Function to extract the information of Nicolas Cage movies from the title.basics.tsv.gz file
+# The function reads the file line by line, looking for the row where the tconst is in the list of tconsts of Nicolas Cage
 @app.route('/api/cage-title-info', methods=['GET'])
 def get_title_info_api():
     tconsts_file = 'cageflix_data/cage_titles.json'
