@@ -19,7 +19,7 @@ To set up the backend locally:
 
     ```bash
     python -m venv venv
-    source venv/bin/activate  x
+    source venv/bin/activate
     ```
 
 3. Install the required dependencies:
